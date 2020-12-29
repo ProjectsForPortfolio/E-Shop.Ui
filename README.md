@@ -16,6 +16,10 @@ By default binding works on port 3000.
 
 The page will reload if you make edits.
 
+### For VsCode users
+
+Debug configuration is available for VsCode users by existing configuration
+
 # Resources
 
 To learn more about React check out the [React documentation](https://reactjs.org/).
