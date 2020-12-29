@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/app",
+            "preLaunchTask": "npm start"
+        },
+        //Please note you'll need to install additional extention for this to use Mozilla as debug tool
+        {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Launch Mozilla",
+            "url": "http://localhost/3000",
+            "webRoot": "${workspaceFolder}/app",
+            "preLaunchTask": "npm: start local"
+        }
+    ]
+}
